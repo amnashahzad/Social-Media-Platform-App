@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .content {
+    margin: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post-header {
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    color: #999;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .post {
+    /* Existing post styles */
+  
+    /* Add spacing and border for comment section */
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .comment-section {
+    margin-top: 10px;
+  }
+  
+  .comment-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .comments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comments-list li {
+    margin-bottom: 5px;
+  }
+  
+  .comment-form {
+    margin-top: 10px;
+  }
+  
+  .comment-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .comment-form button {
+    padding: 5px 10px;
+  }
+  
